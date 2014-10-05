@@ -11,44 +11,47 @@
 </head>
 
   <body>
-   <nav class="top-bar" data-topbar data-options="is_hover:false">
-    <ul class="title-area">
-      <li class="name">
-        <h1><a href="#">Logo</a></h1>
-      </li>
-        <li class="toggle-topbar menu-icon">
-          <a href="#"><span>Mobile</span></a>
+    <div class="fixed contain-to-grid">
+     <nav class="top-bar" data-topbar data-options="is_hover:false">
+      <ul class="title-area">
+        <li class="name">
+          <h1><a href="#">Logo</a></h1>
         </li>
-    </ul>
-
-      <section class="top-bar-section">
-        <ul class="left">
-          <li class="active"><a href="#"> Nav 1</a></li>
-          <li class="has-dropdown"><a href="#"> Nav 2</a>
-            <ul class="dropdown">
-              <li><a href="#">Nav 2.1</a></li>
-              <li><a href="#">Nav 2.2</a></li>
-              <li><a href="#">Nav 2.3</a></li>
-              <li class="has-dropdown"><a href="#">Nav 2.4</a>
-                <ul class="dropdown">
-                  <li><a href="#">Nav 2.4.1</a></li>
-                  <li><a href="#">Nav 2.4.2</a></li>
-                  <li><a href="#">Nav 2.4.3</a></li>
-                </ul>
-              </li>
-            </ul>
+        <!-- This toggle-topbar menu-icon will take all the navigation items and put them into 1 drop down menu for a mobile/small screen -->
+          <li class="toggle-topbar menu-icon">
+            <a href="#"><span>Mobile</span></a>
           </li>
-          <li><a href="#"> Nav 3</a></li>
-          <li><a href="#"> Nav 4</a></li>
-          <li><a href="#"> Nav 5</a></li> 
-        </ul>
-        <ul class="right">
-          <li><a href="#">Nav 6 </a></li>
-          <li><a href="#">Nav 7 </a></li>
-        </ul>
-      </section>
-  </nav>
-  
+      </ul>
+
+        <section class="top-bar-section">
+          <ul class="left">
+            <li class="active"><a href="#"> Nav 1</a></li>
+            <li class="has-dropdown"><a href="#"> Nav 2</a>
+              <ul class="dropdown">
+                <li><a href="#">Nav 2.1</a></li>
+                <li><a href="#">Nav 2.2</a></li>
+                <li><a href="#">Nav 2.3</a></li>
+                <li class="has-dropdown"><a href="#">Nav 2.4</a>
+                  <ul class="dropdown">
+                    <li><a href="#">Nav 2.4.1</a></li>
+                    <li><a href="#">Nav 2.4.2</a></li>
+                    <li><a href="#">Nav 2.4.3</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#"> Nav 3</a></li>
+            <li><a href="#"> Nav 4</a></li>
+            <li><a href="#"> Nav 5</a></li> 
+          </ul>
+          <ul class="right">
+            <li><a href="#">Nav 6 </a></li>
+            <li><a href="#">Nav 7 </a></li>
+          </ul>
+        </section>
+      </nav>
+    </div>
+
     <div class="row">
       <div class="large-12 columns">
         <h1>Learning Zurb Foundation </h1>
